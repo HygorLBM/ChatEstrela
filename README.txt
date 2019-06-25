@@ -2,13 +2,13 @@
 README (Instructions in Portuguese - PT/BR)
 
 Executar o arquivo ChatEstrelaFINAL.py
-1. O nick inicial eh o ip local da maquina, caso queira alterar entrar com /nick novonick
-2. /help para mostrar os comandos do chat.
+1. O nick inicial é o ip local da maquina, caso queira alterar entrar com: /nick novonick
+2. "/help" mostra os comandos do chat.
 3. A topologia é estrela, portanto todos os peers tem acesso a uma lista de ips e nicks que contem o endereco de todos
-4. /add enderecoip ira adicionar um novo ip ao chat
-5. /ss enderecoip envia uma msg privada para o endereco desejado, o comando /sair sai do modo de envio de msgs privadas
+4. "/add *endereçoip*" ira adicionar um novo ip ao chat
+5. "/ss *endereçoip*" envia uma mensagem privada para o endereco desejado, o comando /sair sai do modo de envio de msgs privadas
 e retorna para o chat geral
-6. Caso o peer que adicionou os enderecos caia, os outros continuam a aplicacao normalmente.
+6. Caso o peer que adicionou os endereços caia, os outros continuam a aplicação normalmente.
 
 Exemplo de Execucao do Chat com o node03 e node02 do cluster
 
